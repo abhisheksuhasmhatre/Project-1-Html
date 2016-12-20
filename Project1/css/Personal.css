@@ -1,0 +1,149 @@
+		body {
+			margin-top: 3.3%;
+			margin-bottom: 3.6%;
+			background: #e6e6e6;
+			border-color: #829356;
+			border-style: solid;
+			color: #555F61;
+			border-radius: 25px;
+			font-family: Arial, sans-serif;
+		}
+		
+		.top {
+			list-style-type: none;
+			margin:0;
+			padding:0;
+			padding-right:0.05em;
+			overflow:hidden;
+			background-color: #333;
+			position: fixed;
+			top:0;
+			width:98.4%;
+			border-radius: 10px;
+		}
+		
+		.block {
+			float: left;
+		}
+			
+		.block a {
+			display: block;
+			color:white;
+			text-align:center;
+			padding: 14px 16px;
+			text-decoration: none;
+		}
+		
+		.block a:hover:not(.active) {
+			background-color: #111;
+		}
+			
+		.active {
+			background-color: #4CAF50;
+		}
+		
+		h1 {
+			font-weight: bold;
+			font-size: 3em;
+			margin-left: 0.5em;
+			text-align:center;
+		}
+		
+		.bold {
+			margin-left: 1em;
+			text-decoration: underline;
+			font-weight: bold;
+			padding-left: 10%;
+		}
+		
+		#column {
+			-webkit-column-count: 2;
+			-webkit-column-gap:40px;
+			padding-left: 10%;
+			padding-right: 10%;
+		}
+		
+		.alignment {
+			text-align: justify;
+			margin-left: 1em;
+			margin-right: 1em;
+		}
+		
+		column .imagecenterright {
+			position: absolute;
+			display: block;
+			top: 420px;
+			left: 720px;
+		}
+		
+		figcaption {
+			margin-left:12em;
+			font-size: 0.9em;
+			font-style: italic;
+		}
+		
+		.caption {
+			margin-left:14em;
+			font-size: 0.9em;
+			font-style: italic;
+		}
+		
+		footer {
+			text-align: center;
+			position: fixed;
+			bottom:0px;
+			right: 0px;
+			left: 11px;
+			background-color: #333;
+			color: gray;
+			width:96.28%;
+			padding: 1em;
+			border-radius: 10px;
+		}
+		
+		.color {
+			color:white;
+		}
+		
+		.color:hover {
+			color: #999999;
+		}
+		
+		@media screen and (max-width: 600px) {
+     		body {
+				margin-top: 58%;
+				margin-bottom: 18%;
+			}
+     		
+     		.top {
+      		  	margin: 0;
+      	    	background: #333;
+       		   	display: block;
+       		   	margin-bottom: 3px;
+       		   	width: 94.5%;
+     		}
+     		
+     		li {
+     			width: 100%;
+     			text-align: center;
+     		}
+     		
+     		footer {
+     			margin: 0;
+      	    	background: #333;
+       		   	display: block;
+       		   	width: 86.5%;
+     		}
+     		
+     		.bold {
+     			margin: auto;
+     		}
+     		
+     		.alignment {
+     			margin: auto;
+     		}
+     		
+     		.imagecenterright {
+     			display: none;
+     		}
+		}

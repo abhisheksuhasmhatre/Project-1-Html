@@ -1,0 +1,19 @@
+* {
+	font-family: times;
+	font-size: 12pt;
+	color: black;
+	text-align: justify;
+}
+
+ul, ol, a, .boldblock {
+	display:none;
+}
+
+.bold {
+	text-decoration: underline;
+	font-weight: bold;
+}
+		
+.underline {
+	text-decoration: underline;
+}

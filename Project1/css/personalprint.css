@@ -1,0 +1,15 @@
+* {
+	font-family: times;
+	font-size: 12pt;
+	color: black;
+	text-align: justify;
+}
+
+ul, a, .imagecenterright, .imagecenterright {
+	display:none;
+}
+
+.bold {
+	text-decoration: underline;
+	font-weight: bold;
+}

@@ -1,0 +1,38 @@
+* {
+	font-family: times;
+	font-size: 12pt;
+	color: black;
+	text-align: justify;
+}
+
+ul, a {
+	display:none;
+}
+
+.header {
+	margin-left: 1em;
+	text-align: justify;
+	margin-right: 1em;
+	text-decoration: underline;
+	font-weight: bold;
+}
+		
+.important{
+	font-weight: bold;
+}
+		
+.italic {
+	font-weight: bold;
+	font-style: italic;
+	font-size: 0.9em;
+}
+
+.spacing {
+			margin: 0.5em;
+			padding: 0.5em;
+		}
+		
+		.innerspacing {
+			padding:0.5em;
+		}
+		
